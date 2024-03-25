@@ -35,9 +35,9 @@ Before you can use the StockAlgorithm library, you need to configure it with you
     Make sure to replace "your_api_key_here" with your actual API key.
 ## Reading Configuration
 There are three ways this application will read the config file.
-1. **Setting environmental variable "STOCK_OPTION_STRATEGY_CONFIG"
-2. **Having the config.toml file in the same directory as your application directory. Easiest way.
-3. **Providing the path of the config file when calling the initialize_config("config.toml file path")
+1. Setting environmental variable "STOCK_OPTION_STRATEGY_CONFIG"
+2. Having the config.toml file in the same directory as your application directory. Easiest way.
+3. Providing the path of the config file when calling the initialize_config("config.toml file path")
 
 ## Usage
 
