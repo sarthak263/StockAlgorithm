@@ -27,24 +27,22 @@ Before you can use the StockAlgorithm library, you need to configure it with you
     ```toml
     [alphavantage]
     api_key = "your_api_key_here"
+   
+    [database]
+    uri = "mongodb://localhost:27017/MyStockDB"
     ```
 
     Make sure to replace "your_api_key_here" with your actual API key.
 
 ## Usage
 
-### Using the Command Line Interface
-
-You can interact with StockAlgorithm via a command line interface. Here are some example commands:
-
-```bash
-# Fetch stock _data
-stockalgorithm fetch-_data AAPL
-```
-
 # Run Iron Condor prediction
-stockalgorithm iron-condor AAPL
-
+```
+from stock_option_strategy import initialize_config, predict
+initialize_config()
+res = predict(ticker, "Monthly", "70%") or
+res = predict_multiple_stocks([["AAPL", "Monthly", "70%"],["DIS", "Monthly", "70%"]])
+```
 ## Contributing
 
 Contributions to StockAlgorithm are welcome and appreciated. Whether it's reporting bugs, suggesting enhancements, or helping with code, all contributions help improve the library.
