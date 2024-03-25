@@ -14,7 +14,7 @@ StockAlgorithm is a Python library designed to provide strategies, tools, and in
 To install StockAlgorithm, you can use pip:
 
 ```bash
-pip install stockalgorithm
+pip install stock_option_strategy-0.2.0-py3-none-any.whl
 ```
 ## Configuration
 
