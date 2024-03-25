@@ -135,3 +135,6 @@ def predict(ticker: str, timeframe: str="MONTHLY", probability: str="70%"):
         return f"Invalid timeframe or probability. Please enter 'Monthly' or 'Weekly' as the timeframe. and probability format is 70%. {traceback.format_exc()}"
     except Exception as e:
         return f"An error occurred: {str(e)}"
+    
+if __name__ == "__main__":
+        pass
